@@ -20,7 +20,6 @@ def properties_list(request):
      except Exception as e:
          user = None
 
-     print('solicitud get',request)
 
      favorites = []
      properties = Property.objects.all()  
